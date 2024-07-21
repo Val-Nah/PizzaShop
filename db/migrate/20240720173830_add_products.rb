@@ -21,7 +21,7 @@ class AddProducts < ActiveRecord::Migration
   		:is_best_offer => true,
   		:path_to_image => '/images/pepperoni.jpg'
   		})
-  	
+
   	Product.create ({
   		:title => 'Vegetarian',
   		:description => 'Amazing Vegetarian pizza',
